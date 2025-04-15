@@ -6,8 +6,8 @@ import AboutMe from './components/AboutMe';
 function App() {
     return (
         <>
-            <AboutMe />
             <Jumbotron />
+            <AboutMe />
             <Timeline />
         </>
     );

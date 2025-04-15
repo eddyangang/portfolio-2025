@@ -26,13 +26,13 @@ export default function index() {
                 <a
                     className='btn btn-secondary'
                     download
-                    href='./img/SE_Resume_2025.pdf'
+                    href='./img/Resume_2025.pdf'
                 >
                     <i className='fa fa-download'></i> Resume
                 </a>
             </div>
             <div className='collapse text-center' id='resume'>
-                <object data='./img/SE_Resume_2025.pdf' type='application/pdf'>
+                <object data='./img/Resume_2025.pdf' type='application/pdf'>
                     Resume
                 </object>
             </div>

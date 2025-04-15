@@ -48,7 +48,7 @@
     overflow: hidden;
     padding: var(--space-lg) 0;
     color: var(--cd-color-3);
-    background-color: lightness(var(--cd-color-2), 1.05);
+    background-color: var(--cd-color-2);
     font-family: var(--font-primary);
 
     h2 {
