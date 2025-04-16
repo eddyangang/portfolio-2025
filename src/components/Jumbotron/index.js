@@ -3,7 +3,7 @@ import './style.css';
 export default function index() {
     return (
         <>
-            <div className='jumbotron text-center'>
+            <div className=' text-center'>
                 <h1>
                     Welcome to my Webpage!{' '}
                     <span role='img' aria-label='cat emoji'>
@@ -31,7 +31,7 @@ export default function index() {
                     <i className='fa fa-download'></i> Resume
                 </a>
             </div>
-            <div className='collapse text-center' id='resume'>
+            <div className='collapse text-center p-2' id='resume'>
                 <object data='./img/Resume_2025.pdf' type='application/pdf'>
                     Resume
                 </object>
