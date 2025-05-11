@@ -7,7 +7,7 @@ export default function index() {
                 <h1>
                     Welcome to my Webpage!{' '}
                     <span role='img' aria-label='cat emoji'>
-                        😺
+                        👋
                     </span>
                 </h1>
                 <p>

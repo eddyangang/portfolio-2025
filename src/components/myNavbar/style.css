@@ -1,19 +1,34 @@
-.fa-github-square{
-    font-size:48px;
-    color:#6e5494;
+.fa-github-square {
+    font-size: 48px;
+    color: #6e5494;
 }
 
 .fa-linkedin-square {
-    font-size:48px;
-    color: rgb(40,103,178);
+    font-size: 48px;
+    color: rgb(40, 103, 178);
 }
 
-.fa-facebook-square{
-    font-size:48px; 
+.fa-facebook-square {
+    font-size: 48px;
     color: rgb(66, 103, 178);
 }
 
 .fa-envelope-square {
-    font-size:48px; 
+    font-size: 48px;
     color: gray;
 }
+
+@media screen and (max-width: 992px) {
+    .row-md {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row-md > * {
+        margin-right: 0.5rem;
+    }
+}
+
+/* .bg-dark {
+    background-color: black;
+} */
