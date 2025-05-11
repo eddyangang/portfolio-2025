@@ -3,6 +3,16 @@ import TimelineItems from '../timelineItems/index';
 export default function Timeline() {
     const projects = [
         {
+            title: 'AI Web Scraper Application',
+            summary:
+                'Created a fullstack web application designed to mimic user actions and find text on the webpage to scrape. Actions are followed using a flow model. Built an option to allow users with an OpenAI api key to extract data using their AI model.',
+            image_path: './img/aiscraper.png',
+            image_icon: './img/cd-icon-picture.svg',
+            github_url: 'https://github.com/eddyangang/ai-scraper',
+            deployed_url: 'https://ai-scraper-murex.vercel.app/',
+            date: '2025-05-01 07:00:00',
+        },
+        {
             title: 'Dignifi Landing Page',
             summary:
                 'Created the mobile and web landing page for a start-up company using HTML, CSS, JS, and React.',

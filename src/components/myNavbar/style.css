@@ -29,6 +29,8 @@
     }
 }
 
-/* .bg-dark {
-    background-color: black;
-} */
+.justify-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

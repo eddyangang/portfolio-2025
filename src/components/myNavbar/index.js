@@ -8,7 +8,7 @@ export default function myNavbar() {
     return (
         <Navbar collapseOnSelect expand='lg'>
             <Navbar.Brand href='/'>Eddy Yang</Navbar.Brand>
-            <Nav className='row-md '>
+            <Nav className='row-md justify-between'>
                 <Contact />
                 <Nav.Link
                     href='https://github.com/eddyangang?tab=repositories'

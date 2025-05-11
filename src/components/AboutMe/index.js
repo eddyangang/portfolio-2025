@@ -16,18 +16,13 @@ export default function AboutMe() {
                 <Col>
                     <h1>About Me</h1>
                     <p>
-                        Graduate from the UCB with a degree in Mechanical
-                        Engineering and a certificate in Full Stack Web
-                        Development. Currently looking for a position in Full
-                        stack web development or Software development. Skills in
-                        developing Fullstack MERN (MongoDB or MySQL, Express,
-                        React, Node) applications using MVC architecture. Also,
-                        with proficiency in advanced electronics such as
-                        programming microcontroller, sensors, and actuators. My
-                        technical aptitude in cutting-edge web technologies,
-                        combined with adept problem solving abilities and
-                        determination, make me a strong addition to any
-                        engineering team.
+                        I graduated from the UCB with a degree in Mechanical
+                        Engineering and later found my interest in software. I
+                        have a certificate in Full Stack Web Development. I am
+                        currently looking for a position in software testing
+                        (SDET) or Frontend Web Development. I've been working as
+                        an SDET for over 3.5 years now, with skills in Cypress
+                        and Selenium. Skills in Next.js, React, TS/JS.
                     </p>
                 </Col>
             </Row>
