@@ -6,7 +6,7 @@ import Contact from '../ContactModal';
 
 export default function myNavbar() {
     return (
-        <Navbar collapseOnSelect expand='lg'>
+        <Navbar className='justify-between'>
             <Navbar.Brand href='/'>Eddy Yang</Navbar.Brand>
             <Nav className='row-md justify-between'>
                 <Contact />
