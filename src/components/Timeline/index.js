@@ -1,16 +1,25 @@
-import React from 'react';
 import TimelineItems from '../timelineItems/index';
 export default function Timeline() {
     const projects = [
         {
             title: 'AI Web Scraper Application',
             summary:
-                'Created a fullstack web application designed to mimic user actions and find text on the webpage to scrape. Actions are followed using a flow model. Built an option to allow users with an OpenAI api key to extract data using their AI model.',
+                'Created a fullstack web application designed to mimic user actions and find text on the webpage to scrape. Actions are followed using a flow model. Built an option to allow users with an OpenAI api key to extract data using their AI model. Buits using Typescript, React, NextJS, Postgres, Clerk, and Tailwind',
             image_path: './img/aiscraper.png',
             image_icon: './img/cd-icon-picture.svg',
             github_url: 'https://github.com/eddyangang/ai-scraper',
             deployed_url: 'https://ai-scraper-murex.vercel.app/',
             date: '2025-05-01 07:00:00',
+        },
+        {
+            title: 'Twitter Clone',
+            summary:
+                'Created a Twitter Clone (X) using NextJS, React, Typescript, Postgres. Users can create post that can be viewd by all followers. Post can be liked or comment. User can have followers or follow others. ',
+            image_path: './img/twitter-clone.png',
+            image_icon: './img/cd-icon-picture.svg',
+            github_url: 'https://github.com/eddyangang/twitter-clone',
+            deployed_url: 'https://twitter-clone-kappa-six-30.vercel.app/',
+            date: '2025-04-01 07:00:00',
         },
         {
             title: 'Dignifi Landing Page',
